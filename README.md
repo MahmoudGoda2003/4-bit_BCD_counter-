@@ -1,2 +1,9 @@
 # 4-bit_BCD_counter-
-About implementation of 4-bit BCD up/down counter. The counter work as follows: ● If input X = 0, the counter counts up. Otherwise, it counts down. ● If counting up, the counter’s value should be: 0000, 0001, 0010... ● If counting down: 0010, 0001, 0000...
+Design a continuous state diagram that outputs 1 when it receives
+an even number of 0s or even number of 1’s. Assume: start state
+with no input has even number of zeroes and even numbers of
+ones. You should not follow a behavioral paradigm. Events should
+take place at each rising edge; signals are referenced at the same
+time.
+
+
